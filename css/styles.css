@@ -1,0 +1,182 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 2;
+    margin: 0 50px;
+    color: #7A4495;
+}
+header {
+    height: 130px;
+}
+footer {
+    height: 220px;
+    background-image: linear-gradient(#B270A2, #AB6C9B);
+}
+a:hover {
+    color: #FCE2DB;
+}
+h1 {
+    color: #7A4495;
+}
+h2 {
+    margin: 10px;
+    color: #7A4495;
+}
+h3 {
+    color: #FFC2F4;
+}
+p {
+    margin: 0;
+    color: #7A4495;
+}
+hr {
+    background-color: inherit;
+    border: dotted 7px;
+    border-bottom: none;
+    width: 4%;
+    border-color: #FFEFEA;
+    margin: 100px auto;
+}
+/* Classes */
+.top-container {
+    background-image: linear-gradient(#B270A2, #AB6C9B);
+    margin: 0;
+    position: relative;
+    height: 733px;
+}
+.profile-photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+.links {
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+.intro {
+    margin: 100px auto;
+    width: 500px;
+    height: 300px;
+    background-image: linear-gradient(#FCE2DB, #F0D7D0);
+    border-radius: 10px;
+    color: #7A4495;
+    font-family: Montserrat, sans-serif;
+    position: relative;
+}
+.name {
+    /* position: absolute;
+    top: 50px;
+    left: 50%; */
+    padding-top: 85px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+.description {
+    /* position: absolute;
+    top: 100px;
+    left: 50%; */
+    line-height: 2;
+}
+.middle-container {
+    background-image: linear-gradient(#FCE2DB, #F0D7D0);
+    margin: 0;
+    padding: 0;
+    height: 1700px;
+}
+.about-me {
+    margin: 0 300px 0;
+    padding: 100px;
+    padding-top: 5%;
+    padding-bottom: 0;
+    position: relative;
+}
+.profile-photo-1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    /* float: left;
+    margin-right: 40px; */
+}
+.welcome {
+    margin: 40px auto 0 auto;
+}
+.about-me-description {
+    width: 550px;
+    margin: 10px auto 10px;
+}
+.skill1 {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.skill2 {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    padding-left: 25px;
+    padding-right: 45px;
+}
+.skills {
+    margin: 0 300px;
+    padding-bottom: 30px;
+}
+.skill1-text {
+    padding-top: 30px;
+}
+.skill2-text {
+    padding-top: 30px;
+}
+.programming {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-right: 40px;
+}
+.iot {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 40px;
+}
+.iot-skill-description {
+    width: 500px;
+    margin: 20px 400px 20px 100px;
+}
+.contact-me-text {
+    width: 500px;
+    margin: 0px auto 0px;
+    position: relative;
+}
+.contact-me-button {
+    position: absolute;
+    top: 130px;
+    left: 22%;
+    text-align: center;
+    padding: 5px 20px 5px;
+    background-image: linear-gradient(#7A4495,#AB6C9B);
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    color: #FCE2DB;
+}
+.contact-me-button:hover {
+    background-image: linear-gradient(#41244F,#7A4495);
+    color: #E5CEC7;
+}
+.contact-links {
+    padding: 50px;
+}
