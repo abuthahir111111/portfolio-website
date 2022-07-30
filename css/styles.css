@@ -173,8 +173,9 @@ hr {
     font-family: "Open Sans", sans-serif;
     color: #FCE2DB;
 }
+
 .contact-me-button:hover {
-    background-image: linear-gradient(#41244F,#7A4495);
+    background-image: linear-gradient(#57316B,#805174);
     color: #E5CEC7;
 }
 .contact-links {
