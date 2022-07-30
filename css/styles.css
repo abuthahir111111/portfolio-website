@@ -8,7 +8,7 @@ a {
     font-size: 1.5rem;
     line-height: 2;
     margin: 0 50px;
-    color: #7A4495;
+    color: #57316B;
 }
 header {
     height: 130px;
@@ -27,7 +27,7 @@ h2 {
     margin: 10px;
     color: #7A4495;
 }
-h3 {
+h4 {
     color: #FFC2F4;
 }
 p {
@@ -180,4 +180,40 @@ hr {
 }
 .contact-links {
     padding: 50px;
+}
+.projects {
+    margin-top: 0;
+    padding-top: 100px;
+}
+.password-manager {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+.password-manager:hover {
+    color: white;
+}
+.project-1 {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.project1-text {
+    margin-top: 30px;
+}
+.password-manager-image {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 40px;
+}
+.middle-container-work {
+    background-image: linear-gradient(#FCE2DB, #F0D7D0);
+    margin: 0;
+    padding: 0;
+    height: 1000px;
 }
